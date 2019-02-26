@@ -6,7 +6,6 @@
 %define vendor_pretty Sony
 %define device_pretty Xperia ZR
 # See ../droid-hal-version/droid-hal-device.inc
-# %define have_vibrator 0
 %define have_vibrator_native 1
 %define have_led 1
 %include droid-hal-version/droid-hal-version.inc
