@@ -683,7 +683,7 @@ case "$DEVICE" in
     "dogo")
         sed -i \
             -e 's block/platform/msm_sdcc.1/by-name/FOTAKernel mmcblk0p23 ' \
-            -e 's block/platform/msm_sdcc.1/by-name/LTALabel mmcblk16 ' \
+            -e 's block/platform/msm_sdcc.1/by-name/LTALabel mmcblk0p16 ' \
             -e 's block/platform/msm_sdcc.1/by-name/TA mmcblk0p1 ' \
             -e 's block/platform/msm_sdcc.1/by-name/aboot mmcblk0p6 ' \
             -e 's block/platform/msm_sdcc.1/by-name/alt_aboot mmcblk0p12 ' \
